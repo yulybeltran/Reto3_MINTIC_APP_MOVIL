@@ -1,16 +1,35 @@
-# chat_reto3
+# Reto_3_ MINTIC_Equipo_10
 
-A new Flutter project.
+##  Técnologías, librerías o herramientas que se usaron:
+- Flutter
+- get: ^4.6.5
+- Dart
+- flutter pub add google_fonts
+- firebase_auth: ^4.1.3
+- firebase_core: ^2.3.0
+- cloud_firestore: ^4.1.0
 
-## Getting Started
+*******
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+##  Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Clic aquí para ver el demo](https://youtube.com/shorts/8uIenhpYuxU)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Vistas de la interfaz
+-   KAMEJ CHAT<br>
+
+
+- [Clic aquí para ver las imagenes](https://drive.google.com/drive/folders/162QUmV3d0hSC89leRCbbevTEh5UjgbQu?usp=sharing)
+
+<!-- ![alt text](https://github.com/yulybeltran/Reto1_App_Movile/blob/main/conversor_monedas.png?raw=true) -->
+
+
+
+##  Créditos 
+### Dearrollado por:
+-   <h3>Yuly Marcela Beltrán</h3>
+-   <h3>Katherine Moreno Ordoñez</h3>
+-   <h3> Elia Amira López Olivera </h3>
+-   <h3>Alexander Ceballos Quintero</h3>
+-   <h3>Juan Sebastián Guzmán</h3>
