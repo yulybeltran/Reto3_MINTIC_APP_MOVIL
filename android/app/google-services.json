@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660458401940",
+    "project_id": "chat-reto3-1e777",
+    "storage_bucket": "chat-reto3-1e777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660458401940:android:c193f1b6134cd68ec0c481",
+        "android_client_info": {
+          "package_name": "com.example.chat_reto3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660458401940-d4q254nda6vtd70mbapelr8sb0kqjdu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi0DO4hN3i8zUpyeX1NCR1dzIK3SWXpDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660458401940-d4q254nda6vtd70mbapelr8sb0kqjdu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
