@@ -1,26 +1,23 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:chat_reto3/proceso/autenticacion.dart';
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../proceso/autenticacion.dart';
-
-class mensajes extends StatefulWidget {
-  const mensajes({super.key});
+class usuarios extends StatefulWidget {
+  const usuarios({super.key});
 
   @override
-  State<mensajes> createState() => _mensajesState();
+  State<usuarios> createState() => _usuariosState();
 }
 
-class _mensajesState extends State<mensajes> {
-  Stream<QuerySnapshot> resp_consulta = FirebaseFirestore.instance
-      .collection("Chat")
-      .orderBy("tiempo", descending: true)
-      .snapshots();
+class _usuariosState extends State<usuarios> {
+  Stream<QuerySnapshot> resp_usuarios =
+      FirebaseFirestore.instance.collection("Chat").snapshots();
 
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder(
-        stream: resp_consulta,
+    return  StreamBuilder(      
+        stream: resp_usuarios,
         builder: (context, AsyncSnapshot<QuerySnapshot> respuesta) {
           return respuesta.data?.docs.isEmpty == false
               ? ListView.builder(
@@ -29,27 +26,18 @@ class _mensajesState extends State<mensajes> {
                     return Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Card(
-                        color: (Autenticacion().usuarios?.email).toString() ==
-                                respuesta.data!.docs[index].get("email")
-                            ? Colors.purple[100]
-                            : Colors.cyan[100],
+                        color: Colors.cyan[100],
                         child: ListTile(
-                          title: Text(
-                              respuesta.data!.docs[index].get("mensaje"),
-                              textAlign: (Autenticacion().usuarios?.email)
-                                          .toString() ==
-                                      respuesta.data!.docs[index].get("email")
-                                  ? TextAlign.left
-                                  : TextAlign.right,
+                          title: Text(respuesta.data!.docs[index].get("email"),
                               style: GoogleFonts.chewy()),
-                          subtitle: Text(
+                          /*  subtitle: Text(
                               respuesta.data!.docs[index].get("email"),
                               textAlign: (Autenticacion().usuarios?.email)
                                           .toString() ==
                                       respuesta.data!.docs[index].get("email")
                                   ? TextAlign.left
                                   : TextAlign.right,
-                              style: GoogleFonts.chewy()),
+                              style: GoogleFonts.chewy()) */
                         ),
                       ),
                     );

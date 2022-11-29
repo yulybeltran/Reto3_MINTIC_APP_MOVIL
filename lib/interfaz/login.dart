@@ -29,7 +29,7 @@ class _loginState extends State<login> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(0.0),
               child: Image(
                   image: NetworkImage(
                       "https://us.123rf.com/450wm/blankstock/blankstock2209/blankstock220902911/191683676-neon-light-speech-bubble-messenger-line-icon-speech-bubble-sign-chat-message-symbol-neon-light-backg.jpg?ver=6")),

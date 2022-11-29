@@ -16,6 +16,8 @@ final mensaje = TextEditingController();
 final fire = FirebaseFirestore.instance;
 
 class _chatState extends State<chat> {
+  final FocusNode myFocusNode = FocusNode();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,8 +50,22 @@ class _chatState extends State<chat> {
                     padding: const EdgeInsets.all(20.0),
                     child: TextField(
                       controller: mensaje,
+                      focusNode: myFocusNode,
                       decoration: InputDecoration(hintText: "Mensaje..."),
                       style: GoogleFonts.chewy(),
+                      onSubmitted: (value) {
+                        if (mensaje.text.isNotEmpty) {
+                          myFocusNode.requestFocus();
+                          fire.collection("Chat").doc().set({
+                            "mensaje": mensaje.text,
+                            "tiempo": DateTime.now(),
+                            "email":
+                                (Autenticacion().usuarios?.email).toString(),
+                          });
+
+                          mensaje.clear();
+                        }
+                      },
                     ),
                   ),
                 ),
