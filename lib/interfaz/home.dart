@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.cyan,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'MENSAJERIA KAMEJ'),
+      home: const MyHomePage(title: 'MENSAJERIA KAME'),
     );
   }
 }

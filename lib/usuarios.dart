@@ -30,14 +30,7 @@ class _usuariosState extends State<usuarios> {
                         child: ListTile(
                           title: Text(respuesta.data!.docs[index].get("email"),
                               style: GoogleFonts.chewy()),
-                          /*  subtitle: Text(
-                              respuesta.data!.docs[index].get("email"),
-                              textAlign: (Autenticacion().usuarios?.email)
-                                          .toString() ==
-                                      respuesta.data!.docs[index].get("email")
-                                  ? TextAlign.left
-                                  : TextAlign.right,
-                              style: GoogleFonts.chewy()) */
+                       
                         ),
                       ),
                     );

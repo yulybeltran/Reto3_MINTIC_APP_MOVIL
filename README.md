@@ -17,7 +17,7 @@
 - [Clic aquí para ver el demo](https://youtube.com/shorts/8uIenhpYuxU)
 
 ##  Vistas de la interfaz
--   KAMEJ CHAT<br>
+-   KAME CHAT<br>
 
 
 - [Clic aquí para ver las imagenes](https://drive.google.com/drive/folders/162QUmV3d0hSC89leRCbbevTEh5UjgbQu?usp=sharing)
@@ -32,4 +32,4 @@
 -   <h3>Katherine Moreno Ordoñez</h3>
 -   <h3> Elia Amira López Olivera </h3>
 -   <h3>Alexander Ceballos Quintero</h3>
--   <h3>Juan Sebastián Guzmán</h3>
+

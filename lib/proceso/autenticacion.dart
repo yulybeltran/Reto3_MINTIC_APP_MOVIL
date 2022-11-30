@@ -11,9 +11,16 @@ class Autenticacion {
       await fire.signInWithEmailAndPassword(email: email, password: password);
     } on FirebaseAuthException catch (e) {
       print(e.code);
-      
     }
   }
+
+/*   Future<void> listarUsuarios({required String email}) async {
+    try {
+      await fire.fetchSignInMethodsForEmail(email: email);
+    } on FirebaseAuthException catch (e) {
+      print(e.code);
+    }
+  } */
 
   Future<void> CrearUsuario(
       {required String email, required String password}) async {
