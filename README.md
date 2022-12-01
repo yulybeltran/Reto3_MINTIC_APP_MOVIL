@@ -14,13 +14,14 @@
 
 ##  Demo
 
-- [Clic aquí para ver el demo](https://youtube.com/shorts/8uIenhpYuxU)
+- [Clic aquí para ver el demo](https://youtu.be/UkJHRwXS8os)
 
 ##  Vistas de la interfaz
 -   KAME CHAT<br>
 
 
-- [Clic aquí para ver las imagenes](https://drive.google.com/drive/folders/162QUmV3d0hSC89leRCbbevTEh5UjgbQu?usp=sharing)
+- [Clic aquí para ver las imagenes](https://drive.google.com/file/d/1bx_8Uut92H9fXqZLdXiiyjxcyi0kXEQ1/view?usp=sharing)
+- [Clic aquí para ver las imagenes](https://drive.google.com/file/d/1rd6J01pE62vRvBbV_xa_3XNkSjrWjFFU/view?usp=sharing)
 
 <!-- ![alt text](https://github.com/yulybeltran/Reto1_App_Movile/blob/main/conversor_monedas.png?raw=true) -->
 
